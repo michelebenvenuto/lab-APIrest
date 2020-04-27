@@ -7,3 +7,4 @@ from babies.serializers import BabieSerializer
 
 class BabieViewSet(viewsets.ModelViewSet):
     queryset = Babie.objects.all()
+    serializer_class = BabieSerializer
